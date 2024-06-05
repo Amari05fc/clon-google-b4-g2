@@ -1,6 +1,10 @@
-*{
-    font-family: "Protest Riot", sans-serif;
+* {
+    font-family: "Roboto", sans-serif;
+    overflow: auto;
+    margin: 0px;
 }
+
+
 
 li{
     margin: 10px;
@@ -13,11 +17,16 @@ header ul{
     align-items: center;
 }
 
+.iconoCuadro{
+    height: 30px;
+}
+
 main{
-    height: 56vh;
+    height: 69vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 #buscador{
@@ -31,6 +40,12 @@ main{
     padding: 0 8px 0 0;
 }
 
+#buscador:hover{
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
+}
+
 #buscador input{
     width: 400px;
     outline: none;
@@ -41,6 +56,7 @@ main{
     margin: 5px;
     height: 30px;
     width: 30px;
+    overflow: hidden;
 }
 
 .iconoBuscador{
@@ -62,23 +78,47 @@ main{
     text-align: center;
 }
 
+#botones button:hover{
+    background-color: #54ee99a6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    border: 1px solid #dadce0;
+}
+
 #logo{
-    width: 272px;
+    width: 300px;
     text-align: center;
 }
 
-footer ul{
+footer{
+    background-color: #f2f2f2;
+}
+
+footer ul {
     display: flex;
     list-style-type: none;
     font-size: 15px;
+    margin: 8px auto;
 }
-
 
 footer > div > ul {
     justify-content: center;
+    margin: 8px auto;
+}
+
+.listas-inferiores{
+    border-top: 1px solid #dadce0;
+    display: flex;
 }
 
 a[target]{
     color: #202124;
     text-decoration: none;
+}
+
+img[alt="Foto de perfil"]{
+    border-radius: 25px;
+}
+
+.manita {
+    cursor: pointer;
 }
