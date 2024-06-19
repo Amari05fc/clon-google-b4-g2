@@ -13,25 +13,17 @@ El propósito de desarrollar un clon de Google fue profundizar mi comprensión y
 + Descripcion del Proyecto
 + Herramientas utilizadas
 
-<!-- 
-Evidencia, capturas de pantalla, el link al proyecto.
--->
+<!-- Evidencia, capturas de pantalla, el link al proyecto. -->
 
 ### Evidencia
-
 Link al proyecto:[ google-mali-clon.netlify.app](https://clon-google-fercruzh.netlify.app/)
 
+<!-- Descripción del proyecto, cómo se contruyó. -->
+El clon de Google fue construido utilizando una estructura clara en HTML, aprovechando elementos como header, para la cabecera de la página; main, para el contenido principal y más relevante; y footer, para la información complementaria al final de la página. Dentro del main, se utilizaron listas para organizar los elementos de la interfaz. Cada sección fue estilizada con CSS, asegurando que el diseño fuera coherente con el aspecto clásico de Google.
 
-<!-- 
-Descripción del proyecto, cómo se contruyó.
--->
+<!--  Listan las herramientas: ej (HTML, CSS, JS, Bootstrap, Typewriter JS) -->
+## Herramientas utilizadas
++ HTML
++ CSS
 
-
-<!-- 
-Listan las herramientas: ej (HTML, CSS, JS, Bootstrap, Typewriter JS)
--->
-
-
-<!-- 
-Pasos para instalar su proyecto y correrlo o puedes agregar los créditos del proyecto.
--->
+<!--  Pasos para instalar su proyecto y correrlo o puedes agregar los créditos del proyecto. -->
